@@ -121,7 +121,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking",
-"speed": 5.0
+"speed": 8.0
 }]
 
 [node name="Node" type="Node"]
@@ -130,6 +130,6 @@ animations = [{
 position = Vector2(227, 191)
 sprite_frames = SubResource("SpriteFrames_2tvdb")
 animation = &"walking"
-frame_progress = 0.28039
+frame_progress = 0.212392
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
